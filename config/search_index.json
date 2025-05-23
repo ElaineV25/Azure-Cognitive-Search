@@ -1,0 +1,8 @@
+{
+    "name": "meu-indice",
+    "fields": [
+        { "name": "id", "type": "Edm.String", "key": true },
+        { "name": "content", "type": "Edm.String", "searchable": true },
+        { "name": "language", "type": "Edm.String", "facetable": true }
+    ]
+}

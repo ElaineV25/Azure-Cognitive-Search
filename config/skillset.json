@@ -1,0 +1,14 @@
+{
+    "name": "meu-skillset",
+    "skills": [
+        {
+            "@odata.type": "#Microsoft.Skills.Text.EntityRecognitionSkill",
+            "context": "/document",
+            "categories": ["Organization", "Person", "Location"]
+        },
+        {
+            "@odata.type": "#Microsoft.Skills.Text.LanguageDetectionSkill",
+            "context": "/document"
+        }
+    ]
+}
